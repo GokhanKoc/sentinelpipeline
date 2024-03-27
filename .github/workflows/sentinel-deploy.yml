@@ -11,7 +11,7 @@ name: Deploy Content to sentinelspace
 
 on: 
   push:
-    branches: [ master ]
+    branches: [ newworkflow ]
     paths:
     - '**'
     - '!.github/workflows/**'  # this filter prevents other workflow changes from triggering this workflow
