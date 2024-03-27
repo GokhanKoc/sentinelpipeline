@@ -78,4 +78,4 @@ jobs:
       with:
         azPSVersion: 'latest'
         inlineScript: |
-          ${{ github.workspace }}//.github/workflows/azure-sentinel-deploy-ff351fac-ed9a-435b-b7f5-02d758cab7c1.ps1
+          ${{ github.workspace }}//.github/workflows/azure-sentinel-deploy.ps1
